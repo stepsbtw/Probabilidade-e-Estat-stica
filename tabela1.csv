@@ -1,0 +1,23 @@
+﻿Num;Sexo;Idade;Altura;Peso;Est.Civil;N.Ir.;Transporte;Procedencia;Trabalho;MeioInf;Disc.Rep
+1;F;20;1.6;58;Solteiro;1;Próprio;Maringá;Não relacionado;TV;2
+2;F;26;1.65;59;Solteiro;2;Coletivo;Fora do PR;Não trabalho;Revista;0
+3;F;18;1.64;55;Solteiro;2;Próprio;Maringá;Não trabalho;TV;0
+4;F;25;1.73;60;Solteiro;2;Coletivo;Outro no PR;Não relacionado;TV;2
+5;M;35;1.76;83;Casado;6;Coletivo;Outro no PR;Não relacionado;TV;2
+6;F;20;1.62;58;Solteiro;2;Coletivo;Outro no PR;Não relacionado;Rádio;5
+7;F;29;1.72;70;Solteiro;3;Coletivo;Maringá;Não trabalho;TV;0
+8;M;23;1.71;62;Separado;2;Próprio;Outro no PR;Não relacionado;Internet;2
+9;F;20;1.63;63;Solteiro;2;Próprio;Maringá;Não trabalho;TV;1
+10;M;20;1.79;75;Solteiro;2;Próprio;Fora do PR;Não trabalho;Internet;2
+11;M;20;1.82;66;Solteiro;1;Próprio;Fora do PR;Não trabalho;TV;2
+12;F;30;1.68;46;Solteiro;3;Próprio;Outro no PR;Parcialmente Relacionado;TV;4
+13;F;18;1.69;64;Solteiro;1;Próprio;Maringá;Parcialmente Relacionado;TV;0
+14;M;37;1.82;80;Casado;2;Próprio;Maringá;Não relacionado;TV;3
+15;M;25;1.83;62;Solteiro;1;Próprio;Outro no PR;Não relacionado;TV;2
+16;F;20;1.63;68;Solteiro;2;Coletivo;Maringá;Não trabalho;TV;2
+17;M;21;1.71;80;Solteiro;2;Coletivo;Maringá;Não relacionado;Internet;0
+18;M;25;1.8;82;Casado;1;Próprio;Outro no PR;Não relacionado;Internet;3
+19;F;24;1.62;55;Solteiro;2;Próprio;Maringá;Não trabalho;Jornal;2
+20;M;19;1.74;58;Solteiro;2;Próprio;Maringá;Completamente relacionado;TV;3
+21;F;21;1.55;65;Solteiro;1;Próprio;Maringá;Não trabalho;TV;1
+22;M;22;1.73;62;Solteiro;0;Próprio;Maringá;Não trabalho;Jornal;4
