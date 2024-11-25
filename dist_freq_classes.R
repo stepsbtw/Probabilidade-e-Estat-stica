@@ -25,3 +25,24 @@ xi = seq(xmin+h/2,xmax,h) # pontos medios das classes
 
 tab = cbind(xi,Fi,fi,Fai,fai)
 round(tab, digits=2)
+
+# MEDIDAS DE TENDENCIA CENTRAL
+
+med = mean(x) # simples
+med_class = sum(xi*Fi)/n
+
+moda = function(x){ # argmax(Fi)
+  Fi = table(x)
+  #return (which.max(Fi))
+  return (as.numeric(names(Fi)[Fi == max(Fi)])) # retornar o x que possui a maior frequencia
+}
+
+mod = moda(x)
+
+moda_class = function(li,h,F0,F1,F2){
+  return(li + h*(F1-F0)/(F1-F0)+(F1-F2))
+}
+
+moda_class_caio = function(x){
+  return()
+}
