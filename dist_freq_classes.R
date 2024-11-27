@@ -43,6 +43,23 @@ moda_class = function(li,h,F0,F1,F2){
   return(li + h*(F1-F0)/(F1-F0)+(F1-F2))
 }
 
-moda_class_caio = function(x){
-  return()
+variancia = function(x,m){
+  soma = 0;
+  n = length(x);
+  for(i in 1:n){
+    soma = soma + (x[i]-m)^2;
+  }
+  #variancia = soma/n
+  variancia = soma/n-1;
+}
+
+variancia_class = function(k,m,x){
+  soma = 0; 
+  n = length(x);
+  F = table(x)
+  for(i in 1:k){
+    soma = soma + (x[i]-m)^2*F[i];
+  }
+  #variancia = soma/n
+  variancia = soma/n-1
 }
